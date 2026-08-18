@@ -83,6 +83,14 @@ Best mean CV Macro F1: 0.823
 
 The final LinearSVC was then trained on all 197,999 usable training rows.
 
+## Model Evaluation
+
+LinearSVC was selected as the final model after comparing multiple classical machine learning approaches.
+
+The confusion matrix below shows the class-wise prediction behavior of the selected model.
+
+![LinearSVC Confusion Matrix](images/confusion_matrix.png)
+
 ## Competition Result
 
 The final recorded **Kaggle score was 0.826**.
