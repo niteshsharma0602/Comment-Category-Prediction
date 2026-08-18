@@ -30,6 +30,12 @@ The notebook examines:
 
 One training row had a missing comment and was removed, leaving **197,999 usable training rows**.
 
+## Dataset Analysis
+
+The dataset is highly imbalanced, with Label 0 forming the majority class while Label 3 represents only a small fraction of the samples.
+
+![Class Distribution](images/class_distribution.png)
+
 ### 2. Text Processing
 
 Comments are:
