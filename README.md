@@ -113,11 +113,14 @@ This repository is a portfolio snapshot of the project as completed during the o
 
 ```text
 comment-category-prediction/
-├── notebooks/
-│   └── comment_category_prediction.ipynb
 ├── README.md
-├── requirements.txt
-└── .gitignore
+└── comment_category_prediction
+    ├── images
+    │   ├── class_distribution.png
+    │   └── confusion_matrix.png
+    ├── notebooks
+    │   └── comment_category_prediction.ipynb
+    └── requirements.txt
 ```
 
 ## Tech Stack
