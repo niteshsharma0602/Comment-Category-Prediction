@@ -35,7 +35,7 @@ One training row had a missing comment and was removed, leaving **197,999 usable
 The dataset is highly imbalanced, with Label 0 forming the majority class while Label 3 represents only a small fraction of the samples.
 
 <p align="center">
-  <img src="images/class_distribution.png" width="850" alt="Class Distribution">
+  <img src="comment_category_prediction/images/class_distribution.png" width="850" alt="Class Distribution">
 </p>
 
 <p align="center">
@@ -96,7 +96,7 @@ LinearSVC was selected as the final model after comparing multiple classical mac
 The confusion matrix below shows the class-wise prediction behavior of the selected model.
 
 <p align="center">
-  <img src="images/confusion_matrix.png" width="550" alt="LinearSVC Confusion Matrix">
+  <img src="comment_category_prediction/images/confusion_matrix.png" width="550" alt="LinearSVC Confusion Matrix">
 </p>
 
 <p align="center">
